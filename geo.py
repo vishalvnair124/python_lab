@@ -1,0 +1,15 @@
+print("____Rectangle____")
+b =  float(input("Enter the bridth  of the Rectangle : "))
+l =  float(input("Enter the length  of the Rectangle : "))
+print("The area of the Rectangle is: ", (l*b))
+print("The perimeter of the Rectangle is: ", 2*(l+b))
+
+print("____Circle____")
+r =  float(input("Enter the length of the radius: "))
+print("The area of the Circle is: ", (3.14*(r**2)))
+print("The perimeter of the Circle is: ", (2*3.14*r))
+
+print("____Square____")
+a =  float(input("Enter the length of one side  of the square: "))
+print("The area of the square is: ", a**2)
+print("The perimeter of the square is: ", 4*a)
